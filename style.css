@@ -1,0 +1,64 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top:100px;
+}
+.menu{
+list-style: none;
+position: fixed;
+top: 20px;
+left: 600px;
+z-index: 10;
+cursor: pointer;
+font-weight:bold;
+}
+.links{
+float: left;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+padding-right: 20px;
+color: blueviolet;
+font-size: 25px;
+}
+.links:hover{
+background-color: hotpink;
+font-size: 35px;
+}
+#profile{
+position: absolute;
+overflow: hidden;
+height: 800px;
+color: #FFFFFF;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+opacity: 0.83;
+background: linear-gradient(pink 0%, red 100%);
+}
+.line{
+width:360px;
+height: 2px;
+background-color: black;
+margin-left: 600px;
+}
+#bio{
+text-align: center;
+font-family: cursive;
+}
+a{
+text-decoration:none;
+}
+html{
+scroll-behavior:smooth;
+}
+#abc h2{
+display:inline;
+}
